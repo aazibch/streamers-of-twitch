@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Streamers of Twitch</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div id="main">
+            <header>
+                <div class="container-fluid">
+                    <span id="app-name" class="text-uppercase">Streamers of Twitch</span>
+                </div>
+            </header>
+
+            <div id="main-body">
+                <div id="data-controls">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <button id="all-button" class="btn btn-block text-uppercase selected" type="button">All</button>
+                            </div>
+                            <div class="col-xs-4">
+                                <button id="online-button" class="btn btn-block text-uppercase" type="button">Online</button>
+                            </div>
+                            <div class="col-xs-4">
+                                <button id="offline-button" class="btn btn-block text-uppercase" type="button">Offline</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="channel-data" class="text-center">
+                    <div class="container-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <footer class="text-center">
+                <div class="container-fluid">
+                    <p class="small">Coded by Aazib Chaudhry.</p>
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
